@@ -10,8 +10,6 @@ import (
 
 func TestCountSmiles(t *testing.T) {
 
-	c := test4.CountSmiles([]string{":)", ";(", ";}", ":-D"})
-	fmt.Println("c : ", c)
 	testCase := []struct {
 		name string
         smiles []string

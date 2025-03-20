@@ -1,11 +1,5 @@
 package test2
 
-import (
-	"encoding/json"
-	"fmt"
-	"reflect"
-)
-
 func Permutations(inputWord string) []string  {
 	
 	if len(inputWord) == 1 {
